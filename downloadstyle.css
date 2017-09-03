@@ -44,9 +44,9 @@ h1 a:visited {
 	font-family: Roboto, sans-serif;
     position: fixed;
     margin-top: -110px; 
-    height: 2%;
+    height: 5%;
     width: 100%;
-    clear:both;
+    clear: both;
     bottom: 0;
     left: 15%;
     margin-left: -300px; /* half size of footer */
@@ -70,43 +70,4 @@ h1 a:visited {
 body {
 	background-image: url("indexbg.jpg");
 	background-position: center;
-}
-
-.main p {
-	font-size: 20px;
-	text-align: center;
-	font-family: Roboto, sans-serif;
-}
-
-h2 {
-	font-family: Roboto, sans-serif;
-	margin-left: 1%;
-	border-bottom-style: double;
-	border-bottom-color: black;
-	width: 19%;
-}
-
-h2 a {
-	text-decoration: none;
-}
-
-h2 a:link {
-	color: black;
-}
-
-button {
-	border-radius: 3px;
-	font-size: 20px;
-	margin-bottom: 7px;
-	margin-left: 5px
-}
-
-button:hover {
-	background-color: lightgrey;
-}
-
-#gpl_obj {
-	border-style: dotted;
-	border-radius: 10px
-	border-color:
 }
