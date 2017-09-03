@@ -1,0 +1,85 @@
+h1 {
+	font-size: 2.7em;
+	text-align: center;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h1 a:link {
+	color: black;
+}
+
+h1 a:visited {
+	color: black;
+}
+
+.navigation {
+	text-align: center;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+.navigation li {
+	border: 2px solid #424242;
+	padding: 5px;
+	display: inline;
+	margin: auto;
+	border-radius: 5px;
+	font-size: 18px;
+	background-color: #D6DBDF;
+}
+
+.navigation ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.main {
+	font-family: Roboto, sans-serif;
+}
+
+#mfoot{
+	/*text-align: center;
+	position: absolute;
+	bottom: 10px; OBSOLETE - DOES NOT WORK*/
+
+	font-family: Roboto, sans-serif;
+    position: fixed;
+    margin-top: -110px; 
+    height: 5%;
+    width: 100%;
+    clear:both;
+    bottom: 0;
+    left: 15%;
+    margin-left: -300px; /* half size of footer */
+	text-align: center;
+	font-size: 12px;
+}
+
+.main img {
+	display: block;
+    margin: 0 auto;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+.navigation a:link {
+	color: black;
+}
+
+.navigation a:hover{
+	color: #757575;
+	font-style: italic;
+}
+
+.main p {
+	text-align: center;
+}
+
+body {
+	background-image: url("indexbg.jpg");
+	background-position: center;
+}
