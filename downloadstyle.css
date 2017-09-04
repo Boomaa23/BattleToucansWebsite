@@ -101,3 +101,39 @@ body {
 .button2 :hover  .ver2{
 	color: #757575;
 	font-style: italic;
+}
+
+.dllink li {
+	font-size: 20px;
+	font-family: Josefin Sans, sans-serif;
+	line-height: 1.6em;
+	text-decoration: none;
+}
+
+.dllink a {
+	text-decoration: none;
+	color: black;
+	border-bottom: double black;
+}
+
+.dllink a:hover {
+	color: #ABB2B9;
+	font-style: italic;
+	border-bottom-color: #ABB2B9;
+	/*-webkit-text-stroke: 1px lightgrey;*/
+}
+
+.dllink a:visited {
+	text-decoration: none;
+	color: black;
+	border-bottom: double black;
+}
+
+
+.dllink p {
+	font-size: 24px;
+	font-family: Josefin Sans, sans-serif;
+	font-style: underline;
+	margin-left: 20px;
+	line-height: 0.2em;
+}
