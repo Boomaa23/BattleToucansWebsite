@@ -76,6 +76,10 @@ h1 a:visited {
 	font-style: italic;
 }
 
+.navigation a:visited {
+	color: black;
+}
+
 .main p {
 	text-align: center;
 }

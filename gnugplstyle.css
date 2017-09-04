@@ -67,6 +67,10 @@ h1 a:visited {
 	font-style: italic;
 }
 
+.navigation a:visited {
+	color: black;
+}
+
 body {
 	background-image: url("indexbg.jpg");
 	background-position: center;
@@ -76,6 +80,8 @@ body {
 	font-size: 20px;
 	text-align: center;
 	font-family: Roboto, sans-serif;
+	margin: auto;
+	width: 70%;
 }
 
 h2 {
