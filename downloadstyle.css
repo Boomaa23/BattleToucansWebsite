@@ -120,7 +120,7 @@ body {
 	color: #ABB2B9;
 	font-style: italic;
 	border-bottom-color: #ABB2B9;
-	/*-webkit-text-stroke: 1px lightgrey;*/
+	/*-webkit-text-stroke: 1px lightgrey; [OUTLINES TEXT]*/
 }
 
 .dllink a:visited {
