@@ -1,1 +1,1 @@
-# This is the code for the DevSushi Website. It is licensed under the GNU GPL. See the enclosed License for more information.
+# This is the code for the DevSushi Website. It is licensed under GNU GPL v3. See the enclosed license for more information.
