@@ -83,12 +83,21 @@ body {
 	text-align: center;
 	width: 60%;
 }
+.mainbuttons button {
+	font-size: 18px;
+	margin: 5px;
+	border-radius: 10px;
 
-.main button {
-	display: inline;
-	margin: 10px;
-	font-size: 16px;
 }
-.main form {
+.mainbuttons {
 	text-align: center;
 }
+
+.button1:hover  .ver {
+	color: #757575;
+	font-style: italic;
+}
+
+.button2 :hover  .ver2{
+	color: #757575;
+	font-style: italic;
