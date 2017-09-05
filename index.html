@@ -3,7 +3,7 @@
 	<head>
 		<link href="favicon.ico" rel="icon">
 		<title>DevSushi</title>
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Libre+Barcode+128|Roboto|Source+Sans+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto|Source+Sans+Pro" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="indexstyle.css">
 	</head>
 	<body>
@@ -27,6 +27,19 @@
 			<p>Welcome to the DevSushi webpage! DevSushi is a game about [INSERT GAME DESCRIPTION HERE] and it is available here for free!</p>
 			<p>If you would like to make a donation to the creators, please visit our patreon or donate directly with the PayPal button. Thanks for helping us keep developing!</p>
 			<br><img id="toucangif" src="toucan.gif">
+		</div>
+		<div class="donate">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_donations">
+				<input type="hidden" name="business" value="donations@devsushi.com">
+				<input type="hidden" name="lc" value="US">
+				<input type="hidden" name="item_name" value="DevSushi">
+				<input type="hidden" name="no_note" value="0">
+				<input type="hidden" name="currency_code" value="USD">
+				<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
 		</div>
 		<div class="footer"> <!-- footer w/ copyright -->
 			<footer id="mfoot">
