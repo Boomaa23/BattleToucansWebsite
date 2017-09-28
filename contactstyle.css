@@ -75,3 +75,14 @@ body {
 	background-image: url("indexbg.jpg");
 	background-position: center;
 }           
+
+.mainform form {
+	background-color:#DDDDDD;
+	border-radius:5px;
+	max-width:250px;
+	padding: 10px 0px 10px 20px
+}
+
+#ticketform {
+	margin-left:20px;
+}
