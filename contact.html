@@ -23,13 +23,21 @@
 			<hr color="black"></hr>
 		</div>
 		<div class="main">
-		<p>The best way to contact us is to send us an email at contact-us@devsushi.com. For business inquiries, use business@devsushi.com. We check our emails daily and would love it if If you would like to open a support ticket with us, please fill out the form below.</p>
+		<p>The best way to contact us is to send us an email at contact-us@devsushi.com. For business inquiries, use business@devsushi.com. We check our emails frequently and would love to hear from you. If you would like to open a support ticket or provide feedback, please fill out the form below.</p>
 		   
-        <form action="supportscript.php" method="post">
-        <input name="field1" type="text" />
-        <input name="field2" type="text" />
-        <input type="submit" name="submit" value="Save Data">
+        <form action="supportscript.php" method="post" id="ticketform">
+        Username:<br>
+		<input name="name" type="text"><br>
+		Email:<br>
+		<input name="email" type="email"><br>
+		Type of Ticket:<br>
+        <input name="tt" type="radio" value="Support">Support<br>
+		<input name="tt" type="radio" value="Feedback">Feedback<br>
+		Ticket Info/Problem Description:<br>
+		<textarea name="t_main" rows="10" cols="30" form="ticketform"></textarea><br>
+        <input type="submit" name="submit" value="Submit Ticket">
     </form>
+
 		</div>
 		<div class="footer"> <!-- footer w/ copyright -->
 			<footer id="mfoot">
